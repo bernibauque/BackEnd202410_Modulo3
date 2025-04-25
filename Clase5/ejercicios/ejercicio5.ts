@@ -4,8 +4,13 @@ interface IPersona {
     presentarse(): void;
   }
   
-  class Persona implements IPersona {
-    constructor(public nombre: string, public edad: number) {}
+  export  class Persona implements IPersona {
+    nombre: string
+    edad: number
+    constructor(nombre: string, edad:number){
+      this.nombre = nombre;
+      this.edad = edad
+  }
   
     public presentarse(): void {
       console.log(`Hola, soy ${this.nombre} y tengo ${this.edad} años.`);
