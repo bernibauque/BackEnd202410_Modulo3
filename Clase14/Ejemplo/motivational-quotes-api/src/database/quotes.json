@@ -1,0 +1,24 @@
+{
+  "info": {
+    "name": "Quotes Database",
+    "version": "1.0.0",
+    "total": 3
+  },
+  "quotes": [
+    {
+      "id": "1",
+      "text": "Sonrie, la vida es linda",
+      "autor": "Gise"
+    },
+    {
+      "id": "2",
+      "text": "Fuerza leona",
+      "autor": "Viki"
+    },
+    {
+      "text": "Hola chicas",
+      "autor": "Berni",
+      "id": "3"
+    }
+  ]
+}
